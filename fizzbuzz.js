@@ -1,4 +1,5 @@
-function fizzbuzz (number) {
+// function
+function fizzBuzz (number) {
     let result = "";
     if (number % 3 === 0) {
         result = "fizz";
@@ -13,6 +14,7 @@ function fizzbuzz (number) {
     console.log(result);
 }
 
-fizzbuzz(3);
-fizzbuzz(5);
-fizzbuzz(15);
+// call function
+fizzBuzz(3);
+fizzBuzz(5);
+fizzBuzz(15);
